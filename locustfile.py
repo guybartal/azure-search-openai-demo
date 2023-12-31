@@ -18,9 +18,9 @@ class ChatUser(HttpUser):
                     {
                         "content": random.choice(
                             [
-                                "What is included in my Northwind Health Plus plan that is not in standard?",
-                                "What does a Product Manager do?",
-                                "What happens in a performance review?",
+                                "Summarize all activities needed to take place regarding CREDI",
+                                "Which steps are in the DEM flow?",
+                                "Which tool can check the data compliance with CDISC standards?",
                                 "Whats your whistleblower policy?",
                             ]
                         ),
@@ -43,7 +43,7 @@ class ChatUser(HttpUser):
             "/chat",
             json={
                 "messages": [
-                    {"content": "What happens in a performance review?", "role": "user"},
+                    {"content": "Which tool can check the data compliance with CDISC standards?", "role": "user"},
                     {
                         "content": "During a performance review, employees will receive feedback on their performance over the past year, including both successes and areas for improvement. The feedback will be provided by the employee's supervisor and is intended to help the employee develop and grow in their role [employee_handbook-3.pdf]. The review is a two-way dialogue between the employee and their manager, so employees are encouraged to be honest and open during the process [employee_handbook-3.pdf]. The employee will also have the opportunity to discuss their goals and objectives for the upcoming year [employee_handbook-3.pdf]. A written summary of the performance review will be provided to the employee, which will include a rating of their performance, feedback, and goals and objectives for the upcoming year [employee_handbook-3.pdf].",
                         "role": "assistant",

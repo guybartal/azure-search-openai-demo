@@ -1,6 +1,6 @@
 ---
-name: ChatGPT + Enterprise data
-description: Chat with your data using OpenAI and AI Search.
+name: AI Analytics
+description: AI Analytics using OpenAI and AI Search.
 languages:
 - python
 - typescript
@@ -15,7 +15,7 @@ page_type: sample
 urlFragment: azure-search-openai-demo
 ---
 
-# ChatGPT + Enterprise data with Azure OpenAI and AI Search
+# AI Analytics with Azure OpenAI and AI Search
 
 > [!IMPORTANT]
 > As of November 15, 2023, Azure Cognitive Search has been renamed to Azure AI Search.

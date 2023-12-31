@@ -32,6 +32,7 @@
 .headerTitle {
     margin-left: 12px;
     font-weight: 600;
+    height: 40px;
 }
 
 .headerNavList {
@@ -73,6 +74,6 @@
     font-weight: 600;
 }
 
-.githubLogo {
-    height: 20px;
+.logo {
+    height: 26px;
 }
